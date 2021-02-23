@@ -13,7 +13,7 @@ module.exports = function(app) {
         res.render('about.html');
     });
      
-    app.get('/listall', function (req, res) {
+    app.get('/userid', function (req, res) {
       //res.render('about.html');
       console.log('listall...');
       const getNumber = req.body.getNumber;
