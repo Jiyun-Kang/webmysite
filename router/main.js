@@ -26,4 +26,15 @@ module.exports = function(app) {
       res.status(200).json(response);
    });  // end of get
      
-}
+   app.get('/userid', function (req, res) {
+      //res.render('about.html');
+      console.log('listall...');
+      const getNumber = req.body.getNumber;
+      let response = {
+            'name': 'Jiyun-Kang',
+            'address': '제주도 애월' 
+      }
+      
+      console.log('response : ' + response);
+      res.status(200).json(response);
+   });  // end of get}
