@@ -38,3 +38,5 @@ module.exports = function(app) {
       console.log('response : ' + response);
       res.status(200).json(response);
    });  // end of get}
+
+}
